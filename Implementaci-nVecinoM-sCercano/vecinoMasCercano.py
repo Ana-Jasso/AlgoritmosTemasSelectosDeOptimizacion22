@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.spatial import distance_matrix
 
-df = pd.read_csv('101nodes.csv') #IMPORTACION DEL DATA FRAME.
+df = pd.read_csv('5nodes.csv') #IMPORTACION DEL DATA FRAME (PUEDE SER DEL ARCHIVO DE 5, 48 O MÁS NODOS).
 n = len(df['NODO']) #GUARDAR EL NUMERO DE NODOS EN UNA VARIABLE.
 print(f'Num de nodos: {n}\n') #IMPRIMIR NUMERO DE NODOS
 print(df) #IMPRIMIR COORDENADAS
